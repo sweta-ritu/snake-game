@@ -46,7 +46,7 @@ import pygame
 pygame.init()
 dis=pygame.display.set_mode((400,300))
 pygame.display.update()
-pygame.display.set_caption('Snake game by Edureka')
+pygame.display.set_caption('Snake game ')
 game_over=False
 while not game_over:
     for event in pygame.event.get():
@@ -99,7 +99,7 @@ black = (0, 0, 0)
 red = (255, 0, 0)
  
 dis = pygame.display.set_mode((800, 600))
-pygame.display.set_caption('Snake Game by Edureka')
+pygame.display.set_caption('Snake Game')
  
 game_over = False
  
@@ -157,7 +157,7 @@ red = (255, 0, 0)
 dis_width = 800
 dis_height  = 600
 dis = pygame.display.set_mode((dis_width, dis_width))
-pygame.display.set_caption('Snake Game by Edureka')
+pygame.display.set_caption('Snake Game')
  
 game_over = False
  
@@ -234,7 +234,7 @@ dis_width = 800
 dis_height = 600
  
 dis = pygame.display.set_mode((dis_width, dis_height))
-pygame.display.set_caption('Snake Game by Edureka')
+pygame.display.set_caption('Snake Game')
  
 clock = pygame.time.Clock()
  
@@ -334,7 +334,7 @@ dis_width = 600
 dis_height = 400
  
 dis = pygame.display.set_mode((dis_width, dis_height))
-pygame.display.set_caption('Snake Game by Edureka')
+pygame.display.set_caption('Snake Game')
  
 clock = pygame.time.Clock()
  
@@ -460,7 +460,7 @@ dis_width = 600
 dis_height = 400
  
 dis = pygame.display.set_mode((dis_width, dis_height))
-pygame.display.set_caption('Snake Game by Edureka')
+pygame.display.set_caption('Snake Game')
  
 clock = pygame.time.Clock()
  
